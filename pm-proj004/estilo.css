@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+    padding: 60px 60px 60px 100px;
+    background-color: #4a4a4a;
+    margin-bottom: 3px;
+    background-image:  url(concluido.png);
+    background-repeat: no-repeat;
+    background-position: 40px center;
+}
+
+li.fazer:hover {
+    background-color: #6e6e6e;
+}
+
+li.feito:hover {
+    background-color: #52be7f;
+}
+
+.feito {
+    background-color: #27ae60;
+}
+
+.fazer {
+    background-image: url(concluir.png);
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    background-image: url(seta.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
